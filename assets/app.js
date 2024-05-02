@@ -1,3 +1,11 @@
+const btn = document.getElementById('btn');
+
+function classAdd(){
+ const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+}
+ btn.addEventListener('click', classAdd);
+
 $(document).ready(function () {
     $("a").on("click", function (event) {
         if (this.hash !== "500") {
@@ -16,7 +24,8 @@ $(document).ready(function () {
     });
 });
 
-window.addEventListener("focus", () => {
-    document.title = docTitle;
-})
+
+// window.addEventListener("focus", () => {
+//     document.title = docTitle;
+// })
 

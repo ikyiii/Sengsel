@@ -34,7 +34,6 @@ body {
   cursor: pointer;
   outline: none;
   margin-top: 5em;
-  /* text-transform: uppercase; */
   font-weight: bold;
   font-size: 15px;
 }
@@ -126,9 +125,6 @@ body {
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    /* url("./benner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;  */
 }
 
 .home-container {
@@ -247,7 +243,6 @@ body {
   padding: 50px 0px 30px 0px;
 }
 
-
 .img-container {
   margin: 0 1rem;
   position: relative;
@@ -339,9 +334,10 @@ body {
 
 .food-menu-heading {
   text-align: center;
+  font-style: bold;
   font-size: 3.4rem;
   font-weight: 400;
-  color: #666;
+  color: #fe8a3f;
 }
 
 .food-menu-container {
@@ -366,12 +362,6 @@ body {
   margin-bottom: 3rem;
 }
 
-/* .food-menu-item:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-  
-} */
-
 .food-description {
   margin: auto 1.5rem;
 }
@@ -382,20 +372,11 @@ body {
   color: #444;
 }
 
-
-
 .food-description p {
   font-size: 1.1rem;
   color: #555;
   font-weight: 500;
 }
-
-.food-description .food-price {
-  font-size: 1.3rem;
-  color: #e0672f ;
-  font-weight: 700;
-}
-
 
 #footer h2 {
   text-align: center;
